@@ -1,0 +1,25 @@
+{
+  "name": "angular_bazel_bug_illegal_state",
+  "version": "0.0.0",
+  "scripts": {
+    "postinstall": "ngc -p angular.tsconfig.json"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@angular/common": "5.2.9",
+    "@angular/core": "5.2.9",
+    "@angular/forms": "5.2.9"
+  },
+  "devDependencies": {
+    "@angular/bazel": "5.2.9",
+    "@angular/compiler": "5.2.9",
+    "@angular/compiler-cli": "5.2.9",
+    "@angular/http": "5.2.9",
+    "@angular/platform-browser": "5.2.9",
+    "@angular/platform-browser-dynamic": "5.2.9",
+    "@angular/router": "5.2.9",
+    "rxjs": "5.5.7",
+    "typescript": "2.4.2",
+    "zone.js": "0.8.10"
+  }
+}
